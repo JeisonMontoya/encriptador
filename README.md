@@ -19,3 +19,5 @@ Es un proyecto simple hecho en JavaScript html y css
 
 Si no puedes escanear puedes dar [click aqui](https://jeisonmontoya.github.io/encriptador/).
 
+Por cierto aun debo arreglar ciertas cosas respecto al css en dispositivos
+
