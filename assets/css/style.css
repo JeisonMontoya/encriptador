@@ -1,0 +1,529 @@
+* {
+    background-color: #f3f5fc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.textArea {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    margin-left: 20%;
+    resize: none;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.textArea:focus {
+    outline: none;
+}
+
+
+#muneco{
+    background-color: white;
+    position: absolute;
+    margin-left: 17%;
+    left: 54%;
+    top: 283px;
+}
+
+.mensaje {
+    background: white;
+    padding: 32px;
+    border: none;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    top: 40px;
+    width: 400px;
+    height: 750px;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 17%;
+    position: fixed;
+    resize: none;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 20%;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 450px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 450px;
+}
+
+.sin-mensaje{
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 54%;
+    margin-left: 18%;
+    top: 65%;
+    gap: 16px;
+}
+
+#mensaje1{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 18px;
+}
+
+h2{
+    background-color: white;
+}
+
+h3{
+    background-color: white;
+}
+
+#mensaje2{
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    position: absolute;
+    width: 336px;
+    margin-left: 20%;
+    top: 75%;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20%;
+    gap: 8px;
+    top: 851px;
+}
+
+.informacion-icon{
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.informacion-texto {
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Estilos para dispositivos móviles (hasta 767px de ancho) */
+@media (max-width: 767px) {
+
+    .logo {
+    padding-top: 50px;
+    margin-left: 10px;
+    width: 150px;
+    }
+
+    .textArea {
+        border: none;
+        color: #0A3871;
+        text-transform: lowercase;
+        margin-top: 10%;
+        margin-left: 0%;
+        height: 560px;
+        resize: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    ::placeholder {
+        color: #0A3871;
+    }
+
+    .textArea:focus {
+        outline: none;
+    }
+
+    #muneco{
+        display: none;
+    }
+
+    .mensaje {
+        background: white;
+        position: absolute;
+        border: none;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        top: 950px;
+        width: 590px;
+        height: 133px;
+        border-radius: 32px;
+        color: #0A3871;
+        right: 4%;
+        resize: none;
+    }
+
+    .botones {
+    display: flex;
+    margin-left: 0%;
+    }
+
+    .btn-desencriptar {
+        background: #D8DFE8;
+        border: 1px solid#0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        margin-left: 30px;
+        width: 310px;
+    }
+
+    .btn-encriptar {
+        background-color: #0A3871;
+        border: 1px solid#0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        width: 310px;
+    }
+
+    .informacion{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0%;
+        gap: 8px;
+        margin-top: 35px;
+    }
+
+    .informacion-icon{
+        width: 16px;
+        height: 16px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .informacion-texto {
+        width: 205px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+        opacity: 0.8;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .sin-mensaje{
+        background-color: white; 
+        display: flex;
+        flex-direction: column;
+        width: 336px;
+        height: 122px;
+        left: 6%;
+        top: 83%;
+        gap: 0px;
+    }
+
+    #mensaje1{
+        width: 436px;
+        height: 58px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: 18px;
+    }
+
+    #mensaje2{
+        width: 436px;
+        height: 48px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #495057;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .copiar {
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 108px;
+        position: absolute;
+        width: 600px;
+        right: 7%;
+        top: 91%;
+    }
+}
+
+/* Estilos para dispositivos móviles (hasta 375px de ancho) */
+@media (max-width: 375px) {
+
+    .logo {
+        padding-top: 15px;
+        margin: 24px 16px 24px -35px;
+        width: 150px;
+    }
+
+    .textArea {
+        width: 80%;
+        border: none;
+        color: #0A3871;
+        text-transform: lowercase;
+        margin-top: 5%;
+        margin-left: 0%;
+        height: 530px;
+        resize: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    ::placeholder {
+        color: #0A3871;
+    }
+
+    .textArea:focus {
+        outline: none;
+    }
+
+    #muneco{
+        display: none;
+    }
+
+    .mensaje {
+        background: white;
+        width: 80%;
+        position: absolute;
+        border: none;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        top: 830px;
+        width: 280px;
+        height: 186px;
+        border-radius: 32px;
+        color: #0A3871;
+        right: 4%;
+        resize: none;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-desencriptar {
+        background: #D8DFE8;
+        border: 1px solid#0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        margin: 0 0 0 -1px;
+        width: 310px;
+    }
+
+    .btn-encriptar {
+        background-color: #0A3871;
+        border: 1px solid#0A3871;
+        margin-bottom: 10px;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        width: 310px;
+    }
+
+    .informacion{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0%;
+        gap: 8px;
+        margin-top: -90px;
+    }
+
+    .informacion-icon{
+        width: 16px;
+        height: 16px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .informacion-texto {
+        width: 205px;
+        height: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+        opacity: 0.8;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .sin-mensaje{
+        background-color: white; 
+        display: flex;
+        flex-direction: column;
+        width: 336px;
+        height: 122px;
+        margin: 0 0 0 -1px;
+        top: 95%;
+        gap: 0px;
+    }
+
+    #mensaje1{
+        width: 336px;
+        height: 58px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+        margin-top: 18px;
+    }
+
+    #mensaje2{
+        width: 336px;
+        height: 48px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #495057;
+        flex: none;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .copiar {
+        border: 1px solid #0A3871;
+        border-radius: 32px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 57px;
+        width: 310px;
+        top: 1005px;
+    }
+
+
+}
+
+  /* Estilos para tabletas (de 768px a 1023px de ancho) */
+  /* @media (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  } */
+  
+  /* Estilos para pantallas más grandes (a partir de 1024px de ancho) */
+  /* @media (min-width: 1024px) {
+
+    .container {
+      width: 80%;
+      padding: 30px;
+    }
+} */

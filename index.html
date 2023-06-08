@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Encriptador de textos</title>
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="assets/img/Logo.png" alt="logo de alura" class="logo"></a>
+    </header>
+    <main>
+        <section>
+            <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese texto aqui"></textarea>
+            <div class="informacion">
+                <img class="informacion-icon" src="/assets/img/circle-exclamation-solid.svg" alt="">
+                <h6 class="informacion-texto">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea id="mensajeEncriptado" cols="30" rows="10" class="mensaje"></textarea>
+            <div>
+                <img id="muneco" src="/assets/img/Muñeco.png">
+            </div>
+            <div id="sin-mensaje" class="sin-mensaje">
+                <h2 id="mensaje1">Ningún mensaje fue encontrado</h2>
+                <h3 id="mensaje2">Ingresa el texto que desees encriptar o desencriptar.</h3>
+            </div>
+            <div>
+                <button id="copiar" style="display: none;" class="copiar" onclick="copiarAlPortapapeles()" onclick="btnEncriptar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="/assets/app.js"></script>
+
+</body>
+
+</html>
